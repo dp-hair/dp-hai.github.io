@@ -338,6 +338,11 @@
         width: 100%;
     }
 
+    .order {
+        top: 66px;
+        left: 110px;
+    }
+
     .header-marquee {
         width: 100%;
     }
@@ -418,13 +423,14 @@
         color: #fff;
         font-size: 14px;
     }
-    .footer-box{
+
+    .footer-box {
         display: block;
     }
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
-    
+
     .best-sales img {
         width: 100%;
     }
@@ -480,7 +486,8 @@
         top: 70px;
         left: 70px;
     }
-    .footer-box{
+
+    .footer-box {
         display: block;
     }
 }
