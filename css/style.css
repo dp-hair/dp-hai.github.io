@@ -378,8 +378,8 @@
     }
 
     .order {
-        top: 145px;
-        left: 300px;
+        top: 58px;
+        left: 100px;
         width: 85px;
         height: 40px;
         background: rgb(93, 92, 92);
@@ -417,6 +417,9 @@
         width: 30%;
         color: #fff;
         font-size: 14px;
+    }
+    .footer-box{
+        display: block;
     }
 }
 
@@ -476,5 +479,8 @@
         font-size: 15px;
         top: 70px;
         left: 70px;
+    }
+    .footer-box{
+        display: block;
     }
 }
