@@ -333,7 +333,7 @@
 
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .header-marquee {
         width: 100%;
     }
@@ -447,8 +447,8 @@
     }
 
     .order {
-        top: 145px;
-        left: 245px;
+        top: 195px;
+        left: 250px;
         ;
     }
     .banner-text{
