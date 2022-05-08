@@ -223,7 +223,7 @@ img {
 
 @media all and (max-width: 768px) {
   .img-slide {
-    width: 121px;
+    width: 84px;
   }
   .navbar-toggler{
     margin-left: 250px;
