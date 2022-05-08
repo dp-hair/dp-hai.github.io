@@ -334,6 +334,10 @@
 
 
 @media all and (max-width: 767px) {
+    .best-sales img {
+        width: 100%;
+    }
+
     .header-marquee {
         width: 100%;
     }
@@ -352,7 +356,6 @@
 
     .best-sales img {
         width: 100%;
-        ;
     }
 
     .sales-items img {
@@ -418,6 +421,11 @@
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
+    
+    .best-sales img {
+        width: 100%;
+    }
+
     .category-tags {
         font-size: 22px;
         position: absolute;
@@ -449,19 +457,22 @@
     .order {
         top: 195px;
         left: 250px;
-        ;
     }
-    .banner-text{
-        top:125px;
+
+    .banner-text {
+        top: 125px;
         font-size: 18px;
     }
-    .item{
+
+    .item {
         width: 340px;
     }
-    .owl-item{
+
+    .owl-item {
         width: 340px !important;
     }
-    .email-box{
+
+    .email-box {
         font-size: 15px;
         top: 70px;
         left: 70px;
