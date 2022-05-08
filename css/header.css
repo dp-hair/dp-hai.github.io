@@ -1,0 +1,32 @@
+.logo {
+    width: 100px;
+    border-radius: 20%;
+}
+
+.navbar-nav li {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header-marquee {
+    background-color: rgb(37, 35, 35);
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+.menu-item{
+    color: rgb(184, 184, 214) !important;
+}
+.menu-item:hover{
+color: black !important;
+}
+.service-icon-box{
+    margin-left: 20px;
+}
+.service-icon-box i {
+    margin: 0 7px;
+    color: black;
+}   

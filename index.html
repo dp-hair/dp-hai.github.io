@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Meow Shop</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-marquee">
+            <marquee direction="right">There is a special promotion for the summer</marquee>
+        </div>
+        <div class="container">
+            <div class="menu">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="logo-box">
+                        <a class="navbar-brand" href="#"><img class="logo" src="img/LOGO.jpg" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <h2>CATKIT</h2>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link menu-item" href="index.html">Home<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu-item" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle menu-item" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-expanded="false">
+                                    Shop
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="feed.html">Feed</a>
+                                    <a class="dropdown-item" href="shop-detail.html">Detail</a>
+                                    <a class="dropdown-item" href="#">Sleep</a>
+                                    <a class="dropdown-item" href="#">Clean</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu-item" href="blogs.html">Blogs</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                        <div class="service-icon-box">
+                            <i class="fas fa-user"></i>
+                            <i class="fas fa-phone"></i>
+                           <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </div>
+    <div class="main">
+        <div class="container-fluid">
+            <div class="slide-show container-fluid">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>In a cat’s eye, all things belong to cats</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>A black cat crossing your path signifies that the animal is going somewhere (Groucho
+                                    Marx)</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slide3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Practice giving your cat granular food (the seeds are not too hard because the cat's
+                                    teeth are still uncertain at this time</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="container container-category">
+                <div class="category">
+                    <div class="category-box">
+                        <p class="category-title">Category</p>
+                        <button class="category-button">More categories<i
+                                class="fas fa-angle-double-right"></i></button>
+                    </div>
+                    <hr>
+                    <div class="row category-wrap">
+                        <div class="col-sm category-items">
+                            <div class="category-items-imgs">
+                                <img src="img/catDrink.jpg" alt="">
+                            </div>
+                            <p class="category-tags">DRINK</p>
+                        </div>
+                        <div class="col-sm category-items">
+                            <div class="category-items-imgs">
+                                <img class="img-fluid" src="img/catfood2.jpg" alt="">
+                            </div>
+                            <p class="category-tags">FOOD</p>
+                        </div>
+                        <div class="col-sm category-items">
+                            <div class="category-items-imgs">
+                                <img src="img/catClean.jpg" alt="">
+                            </div>
+                            <p class="category-tags">CLEAN</p>
+                        </div>
+                    </div>
+                    <div class="row category-wrap">
+                        <div class="col-sm category-items">
+                            <div class="category-items-imgs">
+                                <img src="img/catFun.webp" alt="">
+                            </div>
+                            <p class="category-tags">FUN</p>
+                        </div>
+                        <div class="col-sm category-items">
+                            <div class="category-items-imgs">
+                                <img src="img/catSleep.webp" alt="">
+                            </div>
+                            <p class="category-tags">SLEEP</p>
+                        </div>
+                        <div class="col-sm category-items">
+                            <div class="category-items-imgs">
+                                <img src="img/catWear.jpg" alt="">
+                            </div>
+                            <p class="category-tags">CLOTHES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container best-sales">
+                <div class="best-sales-box">
+                    <div class="best-sales-titles">Top Categories</div>
+                    <div class="classify">
+                        <button data-type="all" class="classify-all">All</button>
+                        <button data-type="food" class="classify-food">Food</button>
+                        <button data-type="drink" class="classify-drink">Drink</button>
+                        <button data-type="clean" class="classify-clean">Clean</button>
+                        <button data-type="fun" class="classify-fun">Fun</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="best-sales-box">
+                    <div class="container box-items-wrap">
+                        <div class="row sales-container-items">
+                            <div class="col-sm col-md- col-lg- col-xl- sales-items">
+                                <p class="sales-per">-5%</p>
+                                <img src="img/catfood2.jpg" alt="">
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="sales-name">Cat food - Dine</p>
+                                <p class="sales-price">-10$<sub
+                                        style="text-decoration: line-through; color: red;">12$</sub></p>
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="col-sm col-md- col-lg- col-xl- sales-items">
+                                <p class="sales-per">-7%</p>
+                                <img src="img/catDrink1.jpg" alt="">
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="sales-name">Cat drink</p>
+                                <p class="sales-price">-9$ <sub
+                                        style="text-decoration: line-through; color: red;">12$</sub></p>
+                                <div class="sales-time">
+                                    <p>6 days</p>
+                                    <p>3 hours</p>
+                                    <p>6 mins</p>
+                                    <p>6 secs</p>
+                                </div>
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="col-sm col-md- col-lg- col-xl- sales-items">
+                                <p class="sales-per">-10%</p>
+                                <img src="img/catfood1.jpg" alt="">
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="sales-name">Cat food - Meo</p>
+                                <p class="sales-price">12$ <sub
+                                        style="text-decoration: line-through; color: red;">12$</sub></p>
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="col-sm col-md- col-lg- col-xl- sales-items">
+                                <p class="sales-per">-13%</p>
+                                <img src="img/cattoy2.jpg" alt="">
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="sales-name">Cat toy</p>
+                                <p class="sales-price">10$ <sub
+                                        style="text-decoration: line-through; color: red;">12$</sub></p>
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="row sales-container-items">
+                            <div class="col-sm col-md- col-lg- col-xl- sales-items">
+                                <p class="sales-per">10%</p>
+                                <img src="img/catClean3.jpg " alt="">
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="sales-name">Sand removal</p>
+                                <p class="sales-price">10$ <sub
+                                        style="text-decoration: line-through; color: red;">12$</sub></p>
+                                <div class="sales-time">
+                                    <p>6 days</p>
+                                    <p>3 hours</p>
+                                    <p>6 mins</p>
+                                    <p>6 secs</p>
+                                </div>
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="col-sm col-md- col-lg- col-xl- sales-items">
+                                <p class="sales-per">-10%</p>
+                                <img src="img/catDrink.jpg " alt="">
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="sales-name">
+                                    Drinking machine</p>
+                                <p class="sales-price">10$ <sub
+                                        style="text-decoration: line-through; color: red;">12$</sub></p>
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="col-sm col-md- col-lg- col-xl- sales-items">
+                                <p class="sales-per">-10%</p>
+                                <img src="img/catClean.jpg " alt="">
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="sales-name">Cat food</p>
+                                <p class="sales-price">10$ <sub
+                                        style="text-decoration: line-through; color: red;">12$</sub></p>
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="col-sm col-md- col-lg- col-xl- sales-items">
+                                <p class="sales-per">-10%</p>
+                                <img src="img/cattoy2.webp " alt="">
+                                <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="sales-name">Cat food</p>
+                                <p class="sales-price">10$ <sub
+                                        style="text-decoration: line-through; color: red;">12$</sub></p>
+                                <div class="sales-time">
+                                    <p>6 days</p>
+                                    <p>3 hours</p>
+                                    <p>6 mins</p>
+                                    <p>6 secs</p>
+                                </div>
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid">
+                <div class="best-sales">
+                    <img src="img/catFoodBanner.jpg" alt="">
+                    <button class="order">Order now <i class="fas fa-shopping-bag"></i></button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="product-titles">
+                    <p class="new-product">New product</p>
+                    <button>More Product<i class="fas fa-angle-right"></i> </button>
+                </div>
+                <div class="row sales-container-items">
+                    <div class="col-sm sales-items">
+                        <p class="sales-per">-10%</p>
+                        <img src="img/catDrink.jpg " alt="">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="sales-name">Cat food</p>
+                        <p class="sales-price">10$ <sub style="text-decoration: line-through; color: red;">12$</sub></p>
+                    </div>
+                    <div class="col-sm sales-items">
+                        <p class="sales-per">-10%</p>
+                        <img src="img/catClean.jpg " alt="">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="sales-name">Cat food</p>
+                        <p class="sales-price">10$ <sub style="text-decoration: line-through; color: red;">12$</sub></p>
+                    </div>
+                    <div class="col-sm sales-items">
+                        <p class="sales-per">-10%</p>
+                        <img src="img/cattoy2.webp " alt="">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="sales-name">Cat food</p>
+                        <p class="sales-price">10$ <sub style="text-decoration: line-through; color: red;">12$</sub></p>
+                    </div>
+                    <div class="col-sm sales-items">
+                        <p class="sales-per">-10%</p>
+                        <img src="img/catClean3.jpg" alt="">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="sales-name">Cat food</p>
+                        <p class="sales-price">10$ <sub style="text-decoration: line-through; color: red;">12$</sub></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid banner">
+                <div class="banner-box">
+                    <img src="img/bannerCat.jpg" alt="">
+                    <p class="banner-text">How you behave toward cats here below determines your status in Heaven
+                        (Robert A Heinlein)</p>
+                </div>
+            </div>
+            <div class="container our-lastest-new">
+                <div class="our-lastest-titles">
+                    <p>Our Lastest News</p>
+                    <button>More Blogs <i class="fas fa-angle-right"></i></button>
+                </div>
+                <br>
+                <div class="our-lastest-items owl-carousel owl-theme">
+                    <div class="card item">
+                        <img class="card-img-top" src="img/cardClean.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Cat Food</h4>
+                            <p class="card-text">
+                                Some quick example text to build on the card title
+                                and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card item">
+                        <img class="card-img-top" src="img/cardDrink.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Drink </h4>
+                            <p class="card-text">
+                                Some quick example text to build on the card title
+                                and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card item">
+                        <img class="card-img-top" src="img/Cardfood2.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Cat Food</h4>
+                            <p class="card-text">
+                                Some quick example text to build on the card title
+                                and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card item">
+                        <img class="card-img-top" src="img/cardFood3.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Cat Food</h4>
+                            <p class="card-text">
+                                Some quick example text to build on the card title
+                                and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card item">
+                        <img class="card-img-top" src="img/cardClean2.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Clean</h4>
+                            <p class="card-text">
+                                Some quick example text to build on the card title
+                                and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card item">
+                        <img class="card-img-top" src="img/catDrink.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Cat Food</h4>
+                            <p class="card-text">
+                                Some quick example text to build on the card title
+                                and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="container-fluid email-address">
+                <img src="img/catForm.jpg" alt="">
+                <div class="email-box">
+                    <p>Leave your email for consultation</p>
+                    <i class="fas fa-envelope"></i>
+                    <form method="get" id="emailForm" action="">
+                        <input name="email" type="email"><br>
+                        <input class="submit" type="submit" value="Register" id="register">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <div class="footer-box container">
+            <div class="footer-logo">
+                <a class="navbar-brand" href="#"><img class="logo" src="img/LOGO.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h2>CATKIT</h2>
+                <p><i class="fas fa-home"></i> No 58A, your Street, Washington, USA</p>
+                <p><i class="fas fa-phone"></i> 0123456789</p>
+                <p><i class="fas fa-envelope"></i> lovecat123@gmail.com</p>
+                <div class="footer-logo">
+                    <i class="fas fa-envelope"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-google-plus"></i>
+                </div>
+            </div>
+            <div class="footer-info">
+                <h5>INFORMATION</h5>
+                <p><a href="#">Delivery information</a></p>
+                <p><a href="#">Advanced Search</a></p>
+                <p><a href="#">Helps & Faqs</a></p>
+                <p><a href="#">Storeore Location</a></p>
+                <p><a href="#">Order and Returns</a></p>
+                <p><a href="#">Deliveries</a></p>
+                <p><a href="#">Refund & Return</a></p>
+            </div>
+            <div class="footer-company">
+                <h5>OUR COMPANY</h5>
+                <p><a href="#">Legal Notice</a></p>
+                <p><a href="#">Sitemap</a></p>
+                <p><a href="#">Delivery</a></p>
+                <p><a href="#">Delivery</a></p>
+                <p><a href="#">Delivery</a></p>
+                <p><a href="#">Delivery</a></p>
+            </div>
+            <div class="footer-account">
+                <h5>MY ACCOUNT</h5>
+                <p><a href="#">Search Terms</a></p>
+                <p><a href="#">Search Terms</a></p>
+                <p><a href="#">Search Terms</a></p>
+                <p><a href="#">Search Terms</a></p>
+                <p><a href="#">Search Terms</a></p>
+                <p><a href="#">Search Terms</a></p>
+            </div>
+            <div class="footer-time">
+                <h5>OPENING TIME</h5>
+                <p>Mon - Fri: 8AM -10PM</p>
+                <p>Sat: 9AM-8PM</p>
+                <p>Sun: 2PM -6PM</p>
+                <p>We Work The Holidays</p>
+                <h6>Download our app</h6>
+            </div>
+        </div>
+        <hr>
+        <div class="container footer-box-2">
+            <p>copyright © Has Themes. All Rights Reserved</p>
+            <div class="logo-payment">
+                <img src="img/visaLogo.png" alt="">
+                <img src="img/paypalLogo.png" alt="">
+                <img src="img/Mastercard-logo.svg.png" alt="">
+                <img src="img/Discover-logo.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

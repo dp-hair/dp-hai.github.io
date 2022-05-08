@@ -1,0 +1,21 @@
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-payment img {
+    width: 50px;
+    margin: 0 5px;
+}
+.footer-box-2{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (min-device-width: 0px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    .footer-box{
+        display: block !important;
+    }
+    .footer-box div{
+        margin-bottom: 10px;
+    }
+}

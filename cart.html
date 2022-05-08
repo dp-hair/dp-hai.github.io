@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <title>Cart</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-marquee">
+        <marquee direction="right">There is a special promotion for the summer</marquee>
+    </div>
+    <div class="container">
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="logo-box">
+                    <a class="navbar-brand" href="#"><img class="logo" src="img/LOGO.jpg" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <h2>CATKIT</h2>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link menu-item" href="index.html">Home<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-item" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle menu-item" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="feed.html">Feed</a>
+                                <a class="dropdown-item" href="shop-detail.html">Detail</a>
+                                <a class="dropdown-item" href="#">Sleep</a>
+                                <a class="dropdown-item" href="#">Clean</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-item" href="blogs.html">Blogs</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <div class="service-icon-box">
+                        <i class="fas fa-user"></i>
+                        <i class="fas fa-phone"></i>
+                        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+</div>
+  <br>
+  <hr>
+  <div class="main">
+    <div class="container">
+
+      <h2 class="cart-title">Shopping Cart</h2>
+
+      <div class="cart">
+
+        <div class="products">
+
+          <div class="product">
+
+            <img src="img/catDrink.jpg">
+
+            <div class="product-info">
+
+              <p class="product-name">Cat sand cleaning machine -1</p>
+
+              <h4 class="product-price"> $50</h4>
+
+              <p class="product-offer">-5%</p>
+
+              <p class="product-quantity">Quantity: <input value="1" name="">
+
+                <p class="product-remove">
+
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+
+                  <span class="remove">Remove</span>
+
+                </p>
+
+            </div>
+
+          </div>
+
+          <div class="product">
+
+            <img src="img/catClean.jpg">
+
+            <div class="product-info">
+
+              <p class="product-name">Cat sand cleaning machine -</p>
+
+              <h4 class="product-price">$30</h4>
+
+              <p class="product-offer">-5%</p>
+
+              <p class="product-quantity">Quantity:: <input value="1" name="">
+
+                <p class="product-remove">
+
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+
+                  <span class="remove">Remove</span>
+
+                </p>
+
+            </div>
+
+          </div>
+          <div class="product">
+
+            <img src="img/catClean3.jpg">
+
+            <div class="product-info">
+
+              <p class="product-name">Cat water dispenser</p>
+
+              <h4 class="product-price">$20</h4>
+
+              <p class="product-offer">-5%</p>
+
+              <p class="product-quantity">Quantity:: <input value="1" name="">
+
+                <p class="product-remove">
+
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+
+                  <span class="remove">Remove</span>
+
+                </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="cart-total">
+          <div>
+
+            <p>
+
+              <span>Total Price</span>
+
+              <span>$ 100</span>
+
+            </p>
+
+            <p>
+
+              <span>Number of Items</span>
+
+              <span>3</span>
+
+            </p>
+
+            <p>
+
+              <span>You Save</span>
+
+              <span>$ 12</span>
+
+            </p>
+
+            <a href="#">Proceed to Checkout</a>
+          </div>
+
+        </div>
+
+      </div>
+      <hr>
+      <div class="check-out">
+        <h2 class="check-out-title">Checkout</h2>
+        <div class="row">
+          <div class="col-75">
+            <div class="container">
+              <form action="/action_page.php">
+
+                <div class="row">
+                  <div class="col-50">
+                    <h3>Billing Address</h3>
+                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Hai D. Phi">
+                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input type="text" id="email" name="email" placeholder="dph@gmail.com">
+                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                    <input type="text" id="adr" name="address" placeholder="24 Giai Phong Street">
+                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                    <input type="text" id="city" name="city" placeholder="Ha Noi">
+
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state" placeholder="NY">
+                      </div>
+                      <div class="col-50">
+                        <label for="zip">Zip</label>
+                        <input type="text" id="zip" name="zip" placeholder="10001">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-50">
+                    <h3>Payment</h3>
+                    <label for="fname">Accepted Cards</label>
+                    <div class="icon-container">
+                      <i class="fab fa-cc-visa" style="color:navy;"></i>
+                      <i class="fab fa-cc-amex" style="color:blue;"></i>
+                      <i class="fab fa-cc-mastercard" style="color:red;"></i>
+                      <i class="fab fa-cc-discover" style="color:orange;"></i>
+                    </div>
+                    <label for="cname">Name on Card</label>
+                    <input type="text" id="cname" name="cardname" placeholder="Do Phi Hai">
+                    <label for="ccnum">Credit card number</label>
+                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                    <label for="expmonth">Exp Month</label>
+                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="expyear">Exp Year</label>
+                        <input type="text" id="expyear" name="expyear" placeholder="2022">
+                      </div>
+                      <div class="col-50">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="352">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <label>
+                  <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                </label>
+                <input type="submit" value="Continue to checkout" class="btn-checkout">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <br>
+    <hr>
+    <div class="footer">
+      <div class="footer-box container">
+        <div class="footer-logo">
+          <a class="navbar-brand" href="#"><img class="logo" src="img/LOGO.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <h2>CATKIT</h2>
+          <p><i class="fas fa-home"></i> No 58A, your Street, Washington, USA</p>
+          <p><i class="fas fa-phone"></i> 0123456789</p>
+          <p><i class="fas fa-envelope"></i> lovecat123@gmail.com</p>
+          <div class="footer-logo">
+            <i class="fas fa-envelope"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-google-plus"></i>
+          </div>
+        </div>
+        <div class="footer-info">
+          <h5>INFORMATION</h5>
+          <p><a href="#">Delivery information</a></p>
+          <p><a href="#">Advanced Search</a></p>
+          <p><a href="#">Helps & Faqs</a></p>
+          <p><a href="#">Storeore Location</a></p>
+          <p><a href="#">Order and Returns</a></p>
+          <p><a href="#">Deliveries</a></p>
+          <p><a href="#">Refund & Return</a></p>
+        </div>
+        <div class="footer-company">
+          <h5>OUR COMPANY</h5>
+          <p><a href="#">Legal Notice</a></p>
+          <p><a href="#">Sitemap</a></p>
+          <p><a href="#">Delivery</a></p>
+          <p><a href="#">Delivery</a></p>
+          <p><a href="#">Delivery</a></p>
+          <p><a href="#">Delivery</a></p>
+        </div>
+        <div class="footer-account">
+          <h5>MY ACCOUNT</h5>
+          <p><a href="#">Search Terms</a></p>
+          <p><a href="#">Search Terms</a></p>
+          <p><a href="#">Search Terms</a></p>
+          <p><a href="#">Search Terms</a></p>
+          <p><a href="#">Search Terms</a></p>
+          <p><a href="#">Search Terms</a></p>
+        </div>
+        <div class="footer-time">
+          <h5>OPENING TIME</h5>
+          <p>Mon - Fri: 8AM -10PM</p>
+          <p>Sat: 9AM-8PM</p>
+          <p>Sun: 2PM -6PM</p>
+          <p>We Work The Holidays</p>
+          <h6>Download our app</h6>
+        </div>
+      </div>
+      <hr>
+      <div class="container footer-box-2">
+        <p>copyright © Has Themes. All Rights Reserved</p>
+        <div class="logo-payment">
+          <img src="img/visaLogo.png" alt="">
+          <img src="img/paypalLogo.png" alt="">
+          <img src="img/Mastercard-logo.svg.png" alt="">
+          <img src="img/Discover-logo.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

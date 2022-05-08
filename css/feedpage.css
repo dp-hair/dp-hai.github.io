@@ -1,0 +1,38 @@
+.grid-box{
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+.grid-boxbox-item{
+    display: flex;
+    justify-content: space-around;
+}
+.grid-boxbox-item p{
+    margin-top: 20px;
+    padding: 10px;
+}
+.feed-page-menu{
+    text-align: center;
+}
+.grid-box:hover{
+   border-bottom: 2px solid red;
+}
+.feed-banner img{
+    width: 100%;
+}
+@media screen and (max-width: 767px){
+    .grid-boxbox-item{
+        display: block;
+    }
+    .navbar-toggler{
+        margin-left: 260px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .grid-boxbox-item{
+        display: block;
+    }
+    .navbar-toggler{
+        margin-left: 260px;
+    }
+}

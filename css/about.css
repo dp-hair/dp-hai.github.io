@@ -1,0 +1,17 @@
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.col-sm button{
+    width: 150px;
+    height: 40px;
+    border-radius: 30%;
+    background-color: aliceblue;
+    margin-top: 50px;
+}
+.col-sm button:hover{
+    background-color: rgb(189, 219, 245);
+}
